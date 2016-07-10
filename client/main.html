@@ -1,0 +1,40 @@
+<head>
+
+  <title>weatherReport</title>
+</head>
+
+<body>
+  <h1>Weather report</h1>
+  {{> strplayer}}
+</body>
+
+
+<template name="main">
+	
+	<div class="onNow">
+  <article class="streamList">
+	<h4><a href= {{streamLink}}>onNow</a></h4>
+  <p>{{streamTitle}}</p>
+	</article>
+  </div>
+
+  <div class="upNext">
+  <article class="streamList">  
+	<h4>upNext</h4>
+  <p>{{streamTitle}}</p>	
+  </article>
+  </div>
+
+  <div class="streamList">
+  <h2>previous Streaming Lists</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+  </div>
+	
+</template>
+
+
