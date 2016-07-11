@@ -5,7 +5,6 @@
 
 <body>
   <h1>Weather report</h1>
-  {{> strplayer}}
 </body>
 
 
@@ -13,8 +12,9 @@
 	
 	<div class="onNow">
   <article class="streamList">
-	<h4><a href= {{streamLink}}>onNow</a></h4>
+	<h4>onNow</h4>
   <p>{{streamTitle}}</p>
+  {{> strplayer}}
 	</article>
   </div>
 
@@ -26,13 +26,7 @@
   </div>
 
   <div class="streamList">
-  <h2>previous Streaming Lists</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
+
   </div>
 	
 </template>
