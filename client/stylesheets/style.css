@@ -166,3 +166,14 @@ body {
     position: relative;
     height: 100px;
 }
+.checkBoxes{
+    position: relative;
+    /*left: 800px;*/
+    left: 0px;
+    height: 10px;
+}
+.categoryButton{
+    position: relative;
+    left: 800px;
+    height: 10px;
+}
